@@ -1,0 +1,132 @@
+.dash1{
+    width: 92%;
+    border: 2px solid;
+    margin: auto;
+    margin-top: 24px;
+}
+
+.das-main{
+    position: relative;
+width: 1240px;
+height: 720px;
+
+background: #FFFFFF;
+}
+
+.das{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 14px;
+
+/* position: absolute; */
+width: 682px;
+height: 298px;
+left: 70px;
+top: 127px;
+}
+.das1{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 14px;
+
+position: absolute;
+width: 428px;
+height: 298px;
+left: 782px;
+top: 127px;
+}
+.das-up{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 520px;
+
+width: 681px;
+height: 22px;
+margin-top: 14px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.das-up h5{
+    width: 103px;
+height: 22px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+
+/* Heading Text(171717) */
+
+color: #171717;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+
+}
+.das-mid{
+    box-sizing: border-box;
+
+position: absolute;
+width: 682px;
+height: 262px;
+left: 0px;
+top: 0px;
+margin-top: 50px;
+background: #FFFFFF;
+/* Stroke */
+
+border: 1px solid #DADADA;
+border-radius: 12px;
+}
+.das-mid1{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 420px;
+
+width: 654px;
+height: 58px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+.das-mid2{
+    /* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 5px;
+
+width: 128px;
+height: 56.06px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
